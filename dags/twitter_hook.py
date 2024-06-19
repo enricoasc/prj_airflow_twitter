@@ -1,3 +1,6 @@
+import sys
+sys.path.append("dags")
+
 from airflow.providers.http.hooks.http import HttpHook
 from datetime import datetime, timedelta
 import requests
